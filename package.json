@@ -1,6 +1,6 @@
 {
   "name": "react-photo-wall",
-  "homepage":"https://creativeAndy.gitlab.io/photo-wall ",
+  "homepage":"https://creativeAndy.gitlab.io/react-photo-wall",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
