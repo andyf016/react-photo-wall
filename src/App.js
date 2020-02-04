@@ -33,7 +33,7 @@ class App extends Component {
           <h1>Photo Wall</h1>
           
         </header>
-        <div className="collage">
+        <div className="collage"> 
           {/* We use map here because Array.prototype.map is an expression,
            * and for loops are not. You'll learn more about this soon!
            */}
@@ -41,10 +41,10 @@ class App extends Component {
             <img
               alt={photo.filename}
               key={photo.id}
-              src={PHOTO_URL(photo.id)}
-            />
+              src={PHOTO_URL(photo.id)} 
+            /> 
           ))}
-        </div>
+        </div> 
       </React.Fragment>
     );
   }

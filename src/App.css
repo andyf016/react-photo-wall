@@ -2,10 +2,14 @@
 .collage {
     
     float: right;
-    width: 80%;
+    width: 83%;
 }
 
-header {
+.collage > img {
+    margin: 5px;
+}
+
+h1 {
     text-align: center;
 }
 
